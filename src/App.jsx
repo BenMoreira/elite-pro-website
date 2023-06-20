@@ -13,7 +13,7 @@ function App() {
     <div className='flex flex-row'>
       <Navbar />
 
-      <div className='w-full mt-[60px]'>
+      <div className='w-full m-[5rem]'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
