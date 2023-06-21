@@ -10,10 +10,10 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-col'>
       <Navbar />
 
-      <div className='w-full mt-[5rem]'>
+      <div className='w-full'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />

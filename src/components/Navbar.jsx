@@ -3,7 +3,7 @@ import Navoption from './Navoption'
 
 const Navbar = () => {
   return (
-    <nav className='w-full fixed p-6 border-b border-b-black-100'>
+    <nav className='w-full p-6 border-b border-b-black-100'>
         <div className='flex flex-row justify-between items-center'>
             <div className='text-black-100 text-2xl font-bold'>
                 Elite-Pro Construction Inc.
