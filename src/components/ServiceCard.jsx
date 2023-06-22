@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceCard = ({name, desc, image}) => {
   return (
-    <div className='w-full'>
+    <div className='w-[80%] mx-auto'>
         <div className='flex flex-row justify-between items-start gap-12'>
             <div>
                 <img src={image} alt='image' className='w-[150px]' />
