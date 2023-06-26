@@ -27,3 +27,5 @@ function App() {
 }
 
 export default App
+
+//bg-[#d9d9d9] Looks good ask if want it
