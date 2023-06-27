@@ -68,6 +68,18 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className='w-full h-[60vh] bg-beige-100'>
+        Gallery
+
+        <div className='grid grid-cols-3 gap-4 w-full text-center p-[5vh]'>
+          <div className='border border-black-100 rounded-lg py-[15vh]'>1</div>
+          <div className='border border-black-100 rounded-lg py-[15vh]'>2</div>
+          <div className='border border-black-100 rounded-lg py-[15vh]'>3</div>
+        </div>
+
+        {/* Only show a few pics and add a button that says view more and takes you to Gallery page*/}
+      </div>
     </div>
   )
 }

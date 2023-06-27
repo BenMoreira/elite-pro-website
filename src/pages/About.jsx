@@ -9,7 +9,7 @@ const About = () => {
         </div>
 
         <div className='flex flex-row justify-between items-start gap-12'>
-          <div className='border-2 border-black-100 rounded-lg p-[4vw]'>
+          <div className='border-2 border-beige-100 rounded-lg p-[4vw] bg-beige-100'>
             <div className='font-bold text-xl pb-[2vh]'>
               Who We Are
             </div>
