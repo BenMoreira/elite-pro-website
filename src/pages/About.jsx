@@ -9,12 +9,26 @@ const About = () => {
         </div>
 
         <div className='flex flex-row justify-between items-start gap-12'>
-          <div className='border-2 border-black-100 rounded-lg px-[12vw] py-[25vh]'>
-            About Info Here
+          <div className='border-2 border-black-100 rounded-lg p-[4vw]'>
+            <div className='font-bold text-xl pb-[2vh]'>
+              Who We Are
+            </div>
+
+            <div>
+              Talk about company here. A bit of history, where you work, and anything else Lorem, ipsum dolor sit amet 
+              consectetur adipisicing elit. Veniam, in ducimus? Praesentium ex quam sapiente omnis quisquam dolores odit 
+              cum eius, inventore nemo error iusto adipisci quia obcaecati voluptates laborum? Lorem ipsum dolor sit, amet 
+              consectetur adipisicing elit. At, itaque optio eius quibusdam inventore cupiditate deleniti iure unde nulla 
+              perferendis nostrum ad voluptas in, dolores blanditiis fugit, ut quod soluta? Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Ut repudiandae quis dolorum sequi perferendis, eaque minus harum facilis amet? 
+              Explicabo officia iste expedita accusantium dignissimos, sapiente ratione odit ut nihil. Lorem ipsum dolor 
+              sit amet consectetur adipisicing elit. Nisi vel nobis quos excepturi odio assumenda dolore fugit voluptatem 
+              dolorem quis dignissimos eos sint incidunt quo sit, nihil eaque ipsam optio.
+            </div>
           </div>
 
-          <div className='border-2 border-black-100 rounded-lg px-[12vw] py-[20vh]'>
-            Image Here
+          <div className='border-2 border-black-100 rounded-lg px-[12vw] py-[20vh] bg-[url(src/assets/stockone.jpg)]'>
+            
           </div>
         </div>
 

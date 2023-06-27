@@ -1,12 +1,12 @@
 import React from 'react'
 import stock from '../assets/stockone.jpg'
 
-const cards = [
-  {title: 'Roof Replacements', desc: 'description', img: 'src/assets/stockone.jpg'},
-  {title: 'Roof Repairs', desc: 'description', img: 'src/assets/stocktwo.jpg'},
-  {title: 'Roof Installations', desc: 'description', img: ''},
-  {title: 'Roof Gutters/Down Spouts', desc: 'description', img: ''},
-]
+//const cards = [
+//  {title: 'Roof Replacements', desc: 'description', img: 'stockone.jpg'},
+//  {title: 'Roof Repairs', desc: 'description', img: 'stocktwo.jpg'},
+//  {title: 'Roof Installations', desc: 'description', img: 'stockthree.webp'},
+//  {title: 'Roof Gutters/Down Spouts', desc: 'description', img: ''},
+//]
 
 const Home = () => {
   return (
@@ -39,14 +39,33 @@ const Home = () => {
 
       <div className='w-full mx-auto p-5'>
         <div className='flex flex-row justify-center text-start gap-12'>
-          {cards.map((card, index) =>
-            <div key={index} className={`font-bold border-2 border-black-100 rounded-lg bg-[url(${card.img})] bg-cover`}>
-              <div className='w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
-                <div>{card.title}</div>
-                <div>{card.desc}</div>
-              </div>
+          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stockone.jpg)] bg-cover'>
+            <div className='w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
+              <div>Roof Replacements</div>
+              <div>description</div>
             </div>
-          )}
+          </div>
+
+          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stocktwo.jpg)] bg-cover'>
+            <div className='w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
+              <div>Roof Repairs</div>
+              <div>description</div>
+            </div>
+          </div>
+
+          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stockthree.webp)] bg-cover'>
+            <div className='w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
+              <div>Roof Installations</div>
+              <div>description</div>
+            </div>
+          </div>
+
+          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stockone.jpg)] bg-cover'>
+            <div className='w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
+              <div>Roof Gutters/Down Spouts</div>
+              <div>description</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
