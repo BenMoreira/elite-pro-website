@@ -10,10 +10,43 @@ const Services = () => {
           Services We Provide
         </div>
 
-        <ServiceCard name='name' desc='description' image={reactPic} />
-        <ServiceCard name='name' desc='description' image={reactPic} />
-        <ServiceCard name='name' desc='description' image={reactPic} />
-        <ServiceCard name='name' desc='description' image={reactPic} />
+        <ServiceCard 
+          name='Roof Replacements' 
+          desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
+          eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
+          reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
+          eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
+          reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
+          eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
+          reiciendis.' 
+          image='src/assets/stockone.jpg' 
+        />
+
+        <ServiceCard 
+          name='Roof Repairs' 
+          desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
+          eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
+          reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
+          eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
+          reiciendis.' 
+          image='src/assets/stockone.jpg' 
+        />
+
+        <ServiceCard 
+          name='Roof Installations' 
+          desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
+          eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
+          reiciendis.' 
+          image='src/assets/stockone.jpg' 
+        />
+
+        <ServiceCard 
+          name='Roof Gutters/Down Spouts' 
+          desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
+          eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
+          reiciendis.' 
+          image='src/assets/stockone.jpg' 
+        />
       </div>
     </div>
   )
