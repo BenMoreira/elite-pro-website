@@ -4,7 +4,7 @@ import reactPic from '../assets/react.svg'
 
 const Services = () => {
   return (
-    <div className='mx-[10%]'>
+    <div className='mx-[10%] pb-[2vh]'>
       <div className='flex flex-col justify-center items-start gap-12 mt-[3%]'>
         <div className='text-black-100 font-bold text-2xl border-b-2 border-black-100'>
           Services We Provide

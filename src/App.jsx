@@ -7,13 +7,14 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col min-h-screen'>
       <Navbar />
 
-      <div className='w-full'>
+      <div className='w-full flex-grow'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
@@ -22,6 +23,8 @@ function App() {
           <Route path='/Contact' element={<Contact />} />
         </Routes>
       </div>
+
+      <Footer />
     </div>
   )
 }
