@@ -19,7 +19,7 @@ const Services = () => {
           reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
           eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
           reiciendis.' 
-          image='src/assets/stockone.jpg' 
+          image='/stockone.jpg' 
         />
 
         <ServiceCard 
@@ -29,7 +29,7 @@ const Services = () => {
           reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
           eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
           reiciendis.' 
-          image='src/assets/stockone.jpg' 
+          image='/stockone.jpg' 
         />
 
         <ServiceCard 
@@ -37,7 +37,7 @@ const Services = () => {
           desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
           eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
           reiciendis.' 
-          image='src/assets/stockone.jpg' 
+          image='/stockone.jpg' 
         />
 
         <ServiceCard 
@@ -45,7 +45,7 @@ const Services = () => {
           desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
           eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
           reiciendis.' 
-          image='src/assets/stockone.jpg' 
+          image='/stockone.jpg' 
         />
       </div>
     </div>
