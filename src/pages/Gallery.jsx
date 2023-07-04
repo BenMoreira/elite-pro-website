@@ -8,7 +8,7 @@ const Gallery = () => {
           Gallery of Completed Jobs
         </div>
 
-        <div className='grid grid-cols-3 gap-4 w-full text-center p-[5vh]'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 w-full text-center p-[2vh] md:p-[5vh]'>
           <div className='border border-black-100 rounded-lg py-[15vh]'>1</div>
           <div className='border border-black-100 rounded-lg py-[15vh]'>2</div>
           <div className='border border-black-100 rounded-lg py-[15vh]'>3</div>

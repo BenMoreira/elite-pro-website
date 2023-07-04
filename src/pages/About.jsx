@@ -8,7 +8,7 @@ const About = () => {
           About Elite-Pro Construction Inc.
         </div>
 
-        <div className='flex flex-row justify-between items-start gap-12'>
+        <div className='flex flex-col md:flex-row justify-between items-center md:items-start gap-12'>
           <div className='border-2 border-beige-100 rounded-lg p-[4vw] bg-beige-100'>
             <div className='font-bold text-xl pb-[2vh]'>
               Who We Are
@@ -27,12 +27,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className='border-2 border-black-100 rounded-lg px-[12vw] py-[20vh] bg-[url(src/assets/stockone.jpg)]'>
+          <div className='border-2 border-black-100 rounded-lg px-[30vw] md:px-[12vw] py-[20vh] bg-[url(src/assets/stockone.jpg)]'>
             
           </div>
         </div>
 
-        <div>
+        <div className='pb-5 md:pb-0'>
           <a href='/Contact' className='border-2 border-black-100 rounded-lg px-5 py-2 font-bold hover:text-red-100 hover:border-red-100'>
             Contact Us
           </a>

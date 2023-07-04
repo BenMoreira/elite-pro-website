@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='mx-[10%] mt-[3%]'>
+    <div className='mx-[10%] my-[3%]'>
       <div className='text-black-100 font-bold text-2xl pb-[5vh]'>
         Need help with your roof? Get in contact with us: 
       </div>
@@ -14,27 +14,27 @@ const Contact = () => {
 
         <div className='w-full'>
           <form className='mx-[15%] flex flex-col'>
-            <div className='flex flex-row justify-between items-start'>
+            <div className='flex flex-col md:flex-row justify-between items-start gap-4 md:gap-0'>
               <div className='flex flex-col justify-center items-start gap-6'>
                 <div className='flex flex-col'>
                   <label>Full Name</label>
-                  <input type='text' name='name' className='border-2 border-black-100 rounded-lg px-5 font-normal w-[20vw]' />
+                  <input type='text' name='name' className='border-2 border-black-100 rounded-lg px-5 font-normal w-[100%] md:w-[20vw]' />
                 </div>
 
                 <div className='flex flex-col'>
                   <label>Email</label>
-                  <input type='email' name='email' className='border-2 border-black-100 rounded-lg px-5 font-normal w-[20vw]' />
+                  <input type='email' name='email' className='border-2 border-black-100 rounded-lg px-5 font-normal w-[100%] md:w-[20vw]' />
                 </div>
 
                 <div className='flex flex-col'>
                   <label>Phone</label>
-                  <input type='text' name='phone' className='border-2 border-black-100 rounded-lg px-5 font-normal w-[20vw]' />
+                  <input type='text' name='phone' className='border-2 border-black-100 rounded-lg px-5 font-normal w-[100%] md:w-[20vw]' />
                 </div>
               </div>
 
               <div className='flex flex-col'>
                 <label>Message</label>
-                <textarea name='message' rows={7} className='border-2 border-black-100 rounded-lg px-5 font-normal w-[25vw]' />
+                <textarea name='message' rows={7} className='border-2 border-black-100 rounded-lg px-5 font-normal w-[100%] md:w-[25vw]' />
               </div>
             </div>
 
