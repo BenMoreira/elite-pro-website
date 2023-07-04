@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <div className='w-full h-[70vh]' 
-      style={{ backgroundImage: 'url("src/assets/stockthree.webp")', backgroundSize: 'cover', backgroundPosition: 'center'}}
+      style={{ backgroundImage: 'url(src/assets/stockthree.webp)', backgroundSize: 'cover', backgroundPosition: 'center'}}
       >
         <div className='h-full backdrop-brightness-[40%] p-[15vh] text-white font-bold flex flex-col justify-center items-center gap-[10vh]'>
           <div className='text-3xl md:text-6xl text-center'>
@@ -69,7 +69,7 @@ const Home = () => {
           </div>
 
           <div className='font-bold border-2 border-black-100 rounded-lg' 
-          style={{ backgroundImage: 'url("src/assets/stockone.jpg")', backgroundSize: 'cover' }}
+          style={{ backgroundImage: 'url(src/assets/stockone.jpg)', backgroundSize: 'cover' }}
           >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Gutters/Down Spouts</div>
