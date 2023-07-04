@@ -27,7 +27,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className='border-2 border-black-100 rounded-lg px-[30vw] md:px-[12vw] py-[20vh] bg-[url(src/assets/stockone.jpg)]'>
+          <div className='border-2 border-black-100 rounded-lg px-[30vw] md:px-[12vw] py-[20vh]' style={{ backgroundImage: 'url("src/assets/stockone.jpg")'}}>
             
           </div>
         </div>

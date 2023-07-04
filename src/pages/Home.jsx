@@ -11,7 +11,9 @@ import stock from '../assets/stockone.jpg'
 const Home = () => {
   return (
     <div>
-      <div className='w-full h-[70vh] bg-[url(src/assets/stockthree.webp)] bg-cover bg-center'>
+      <div className='w-full h-[70vh]' 
+      style={{ backgroundImage: 'url("src/assets/stockthree.webp")', backgroundSize: 'cover', backgroundPosition: 'center'}}
+      >
         <div className='h-full backdrop-brightness-[40%] p-[15vh] text-white font-bold flex flex-col justify-center items-center gap-[10vh]'>
           <div className='text-3xl md:text-6xl text-center'>
             Elite-Pro Construction Inc.
@@ -39,28 +41,36 @@ const Home = () => {
 
       <div className='w-full mx-auto px-5 pb-[4rem]'>
         <div className='flex flex-col md:flex-row justify-center text-start gap-12'>
-          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stockone.jpg)] bg-cover'>
+          <div className='font-bold border-2 border-black-100 rounded-lg' 
+          style={{ backgroundImage: 'url("src/assets/stockone.jpg")', backgroundSize: 'cover' }}
+          >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Replacements</div>
               <div>description</div>
             </div>
           </div>
 
-          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stocktwo.jpg)] bg-cover'>
+          <div className='font-bold border-2 border-black-100 rounded-lg' 
+          style={{ backgroundImage: 'url("src/assets/stocktwo.jpg")', backgroundSize: 'cover' }}
+          >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Repairs</div>
               <div>description</div>
             </div>
           </div>
 
-          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stockthree.webp)] bg-cover'>
+          <div className='font-bold border-2 border-black-100 rounded-lg' 
+          style={{ backgroundImage: 'url("src/assets/stockthree.webp")', backgroundSize: 'cover' }}
+          >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Installations</div>
               <div>description</div>
             </div>
           </div>
 
-          <div className='font-bold border-2 border-black-100 rounded-lg bg-[url(src/assets/stockone.jpg)] bg-cover'>
+          <div className='font-bold border-2 border-black-100 rounded-lg' 
+          style={{ backgroundImage: 'url("src/assets/stockone.jpg")', backgroundSize: 'cover' }}
+          >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Gutters/Down Spouts</div>
               <div>description</div>
@@ -75,7 +85,7 @@ const Home = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center p-[5vh]'>
-          <div className='rounded-lg bg-[url(src/assets/stockone.jpg)] bg-cover'>
+          <div className='rounded-lg' style={{ backgroundImage: 'url("src/assets/stockone.jpg")', backgroundSize: 'cover' }}>
             <div className='py-[15vh] hover:backdrop-brightness-[70%] rounded-lg border-2 border-black-100 '>
               1
             </div>
