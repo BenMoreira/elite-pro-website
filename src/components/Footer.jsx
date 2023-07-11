@@ -4,12 +4,14 @@ import Navoption from './Navoption'
 const Footer = () => {
   return (
     <footer className='w-full bg-black-100 text-white mt-auto'>
-        <div className='h-[8vh] flex flex-row justify-center items-center gap-4 md:gap-8'>
-            <a href='/About'>About</a>
-            <a href='/Services'>Services</a>
-            <a href='/' className='md:text-lg font-bold'>Elite-Pro Construction Inc.</a>
-            <a href='/Gallery'>Gallery</a>
-            <a href='/Contact'>Contact</a>
+        <div className='h-[6vh] mx-[5%] text-sm flex flex-row justify-between items-center gap-4 md:gap-8'>
+          <div>
+            Elite-Pro Construction Inc.
+          </div>
+
+          <div>
+            © 2023 All Rights Reserved
+          </div>
         </div>
     </footer>
   )
