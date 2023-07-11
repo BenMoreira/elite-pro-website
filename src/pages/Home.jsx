@@ -1,13 +1,13 @@
 import React from 'react'
-
-//const cards = [
-//  {title: 'Roof Replacements', desc: 'description', img: 'stockone.jpg'},
-//  {title: 'Roof Repairs', desc: 'description', img: 'stocktwo.jpg'},
-//  {title: 'Roof Installations', desc: 'description', img: 'stockthree.webp'},
-//  {title: 'Roof Gutters/Down Spouts', desc: 'description', img: ''},
-//]
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  let navigate = useNavigate();
+
+  function handleClick(link) {
+    navigate(link);
+  }
+
   return (
     <div>
       <div className='w-full h-[70vh]' 
@@ -23,9 +23,9 @@ const Home = () => {
           </div>
 
           <div className='text-lg text-center md:text-xl'>
-            <a href='/Contact' className='border-2 border-white rounded-lg px-5 py-2 font-bold hover:text-red-100 hover:border-red-100'>
+            <button onClick={() => handleClick('/Contact')} className='border-2 border-white rounded-lg px-5 py-2 font-bold hover:text-red-100 hover:border-red-100'>
               Contact Us
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -95,9 +95,9 @@ const Home = () => {
 
         {/* Only show a few pics and add a button that says view more and takes you to Gallery page*/}
         <div className='text-lg md:text-xl text-center'>
-          <a href='/Gallery' className='border-2 border-black-100 rounded-lg px-5 py-2 font-bold hover:text-red-100 hover:border-red-100'>
+          <button onClick={() => handleClick('/Gallery')} className='border-2 border-black-100 rounded-lg px-5 py-2 font-bold hover:text-red-100 hover:border-red-100'>
             View More
-          </a>
+          </button>
         </div>
       </div>
     </div>

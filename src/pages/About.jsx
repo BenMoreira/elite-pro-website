@@ -1,6 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+  let navigate = useNavigate();
+
+  function handleClick(link) {
+    navigate(link);
+  }
+
   return (
     <div className='mx-[10%]'>
       <div className='flex flex-col justify-center items-center gap-12 mt-[3%]'>
@@ -32,10 +39,10 @@ const About = () => {
           </div>
         </div>
 
-        <div className='pb-5 md:pb-0'>
-          <a href='/Contact' className='border-2 border-black-100 rounded-lg px-5 py-2 font-bold hover:text-red-100 hover:border-red-100'>
+        <div className='pb-5'>
+          <button onClick={() => handleClick('/Contact')} className='border-2 border-black-100 rounded-lg px-5 py-2 font-bold hover:text-red-100 hover:border-red-100'>
             Contact Us
-          </a>
+          </button>
         </div>
       </div>
     </div>
