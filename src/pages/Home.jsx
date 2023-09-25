@@ -19,7 +19,7 @@ const Home = () => {
           </div>
 
           <div className='text-lg md:text-2xl'>
-            Slogan Here
+            Your Premier Destination for Roofing
           </div>
 
           <div className='text-lg text-center md:text-xl'>
@@ -31,11 +31,11 @@ const Home = () => {
       </div>
 
       <div className='w-[70%] mx-auto md:text-center px-5 py-[4rem] text-lg'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium minima dolorem consequuntur dignissimos, 
-        eaque porro itaque voluptas sed? Beatae exercitationem quibusdam similique eos harum, ea alias. Tenetur, consectetur 
-        reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident, ratione expedita quaerat 
-        accusamus explicabo inventore sequi recusandae modi, error omnis enim itaque cupiditate distinctio doloremque aut deserunt 
-        atque! Voluptates.
+        Based out of Georgia, Elite-Pro Construction Inc. is your premier destination when it comes to roofing. 
+        With decades worth of expertise and experience, Elite-Pro specializes in roof replacements, repairs, installations, and gutters/down spouts,
+        while ensuring the utmost protection and longevity for your home. Our dedicated team of professionals prioritizes attention to detail, 
+        top-quality materials, and customer satisfaction in every project we undertake. Elite-Pro Construction Inc. is your trusted partner
+        for all your roofing needs.
       </div>
 
       <div className='w-full mx-auto px-5 pb-[4rem]'>
@@ -45,7 +45,7 @@ const Home = () => {
           >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Replacements</div>
-              <div>description</div>
+              <div></div>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ const Home = () => {
           >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Repairs</div>
-              <div>description</div>
+              <div></div>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ const Home = () => {
           >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Installations</div>
-              <div>description</div>
+              <div></div>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ const Home = () => {
           >
             <div className='w-[100%] md:w-[20vw] px-5 py-[10vh] backdrop-brightness-[70%] text-white'>
               <div>Roof Gutters/Down Spouts</div>
-              <div>description</div>
+              <div></div>
             </div>
           </div>
         </div>
@@ -85,9 +85,7 @@ const Home = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center p-[5vh]'>
           <div className='rounded-lg' style={{ backgroundImage: 'url("/stockone.jpg")', backgroundSize: 'cover' }}>
-            <div className='py-[15vh] hover:backdrop-brightness-[70%] rounded-lg border-2 border-black-100 '>
-              1
-            </div>
+            <div className='py-[16.5vh] hover:backdrop-brightness-[70%] rounded-lg border-2 border-black-100 '></div>
           </div>
           <div className='border border-black-100 rounded-lg py-[15vh]'>2</div>
           <div className='border border-black-100 rounded-lg py-[15vh]'>3</div>
