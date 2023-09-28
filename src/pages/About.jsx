@@ -22,15 +22,15 @@ const About = () => {
             </div>
 
             <div>
-              Talk about company here. A bit of history, where you work, and anything else Lorem, ipsum dolor sit amet 
-              consectetur adipisicing elit. Veniam, in ducimus? Praesentium ex quam sapiente omnis quisquam dolores odit 
-              cum eius, inventore nemo error iusto adipisci quia obcaecati voluptates laborum? Lorem ipsum dolor sit, amet 
-              consectetur adipisicing elit. At, itaque optio eius quibusdam inventore cupiditate deleniti iure unde nulla 
-              perferendis nostrum ad voluptas in, dolores blanditiis fugit, ut quod soluta? Lorem ipsum dolor sit amet 
-              consectetur adipisicing elit. Ut repudiandae quis dolorum sequi perferendis, eaque minus harum facilis amet? 
-              Explicabo officia iste expedita accusantium dignissimos, sapiente ratione odit ut nihil. Lorem ipsum dolor 
-              sit amet consectetur adipisicing elit. Nisi vel nobis quos excepturi odio assumenda dolore fugit voluptatem 
-              dolorem quis dignissimos eos sint incidunt quo sit, nihil eaque ipsam optio.
+              Welcome to Elite-Pro Construction Inc., your dedicated partner for all your commercial roofing needs. We're based out of 
+              Georgia, but work all along the east coast of the United States. With decades 
+              worth of experience, we've become a trusted company when it comes to delivering top-quality roofing services.
+              At Elite-Pro Construction Inc., we understand the importance of a reliable and watertight roof for your business. Whether it's 
+              a small repair, routine maintenance, or a complete roofing project, we take pride in providing cost-effective and 
+              efficient solutions tailored to your unique requirements. Our skilled team is committed to ensuring your roofing systems 
+              are durable and have longevity. Thank you for considering Elite-Pro Construction Inc. for your commercial roofing needs. 
+              We're excited to have the opportunity to serve you and build a lasting relationship. Your trust drives us, and we're here 
+              to protect your investment.
             </div>
           </div>
 
